@@ -2,11 +2,13 @@
 
 ## Sobre
 
- Último projeto em grupo da turma de Linguagem de Programação - 1 2021.2 da Universidade Federal da Paraíba.
+Este projeto foi desenvolvido como parte da disciplina de Padrões de Projeto do 5° período (2023.2) ministrada pelo professor José de Sousa Barros, do curso de Tecnologia em Sistemas Para Internet (TSI) oferecido pelo IFPB - Campus Guarabira. A avaliação envolveu a refatoração do jogo de damas em Java, aplicando os padrões de projeto discutidos em sala.
 
- O projeto consiste em desenvolver um jogo simples com interface gráfica utilizando conceitos de Programação Orientada à Objetos. O jogo escolhido pelo grupo foi um jogo de Damas e a Classe contendo o método principal é a `App.java` no diretório `./src/com/damas/App.java`
+O código foi refatorado mantendo a funcionalidade original, mas agora incorpora os princípios S.O.L.I.D., proporcionando uma estrutura mais modular e fácil de entender.
 
- Para abrir e rodar o executável `.jar` em sua máquina, você precisará ter instalado o **Java Runtime Environment**. Você pode baixa-lo pelo [site oficial do Java](https://www.java.com/en/download/manual.jsp).
+## Como Executar
+
+Para abrir e rodar o executável `.jar` em sua máquina, você precisará ter instalado o **Java Runtime Environment**. Você pode baixá-lo pelo [site oficial do Java](https://www.java.com/en/download/manual.jsp).
 
 ### Regras do jogo
 
@@ -21,9 +23,9 @@
 - Após marcar um ponto, se houver outra peça disponível para comer, o jogador é obrigado a comê-la.
 - Sopro liberado.
 
-### Controles e atalhos do jogo
+### Controles e Atalhos do Jogo
 
- Para movimentar a peça clique primeiro na casa de origem depois na casa de destino.
+Para movimentar a peça, clique primeiro na casa de origem e depois na casa de destino.
 
 - "**Ctrl + I**" - Status do jogo.
 - "**Ctrl + N**" - Novo jogo.
@@ -34,10 +36,15 @@
 - [ ] Implementar regra para remoção do sopro em geral
 - [ ] Adicionar alguns elementos ao GUI do jogo
 
-### Contribuidores
+### Contribuidores (versão original)
 
 - [João Victor](https://github.com/joao-victor-da-silva-cirilo)
 - [Arthur Miranda](https://github.com/ArthurMiranda03)
 - [Alysson Silva](https://github.com/ZeAlysson)
 - Alan Moraes (Professor)
 - Leonardo Villeth (Monitor da disciplina)
+
+### Contribuidores (versão refatorada)
+
+- [Natália S. Gomes](https://github.com/nataliatsi)
+- José de Sousa Barros (Professor)
